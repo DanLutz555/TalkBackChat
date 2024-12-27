@@ -1,0 +1,87 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+.register {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgb(255, 255, 255);
+  width: 350px;
+  height: 350px;
+}
+.signIn {
+  width: 100%;
+  margin-top: 20px;
+}
+.signIn button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(255, 77, 107);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.fonts {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.fonts img {
+  width: 30px;
+  height: 30px;
+}
+.Email,
+.Password {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Email input,
+.Password input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgb(232, 229, 229);
+}
+.remember-forgot {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;  
+  width: 100%;         
+  margin-top: 10px;     
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;       
+}
+
+.remember-forgot label {
+  display: flex;
+  align-items: center;
+}
+
+.remember-forgot a {
+  color: rgb(255, 77, 107);
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+

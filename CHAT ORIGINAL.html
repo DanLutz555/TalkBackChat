@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+      }
+      .kotert {
+        color: navy;
+      }
+      .game button {
+        color: red;
+      }
+      .contants {
+        display: flex;
+        color: red;
+        text-align: left;
+        background-color: yellow;
+        width: 200px;
+        height: 100px;
+      }
+      .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 100px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: rgb(164, 158, 158);
+        width: auto;
+        height: 700px;
+      }
+      .send input {
+        width: 800px;
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="kotert"><h1>CallBackChat</h1></div>
+      <div class="contants">
+        <h2>Contants List</h2>
+        <ul>
+          <li>Dan</li>
+          <li>Mike</li>
+          <li>Oren</li>
+        </ul>
+      </div>
+      <div class="game">
+        <button type="submit" id="game">Play</button>
+      </div>
+      <div class="send">
+        <input
+          id="message"
+          for="text"
+          placeholder="write here your text"
+          required
+        />
+        <button type="submit" id="submit">SEND</button>
+      </div>
+    </div>
+  </body>
+</html>
